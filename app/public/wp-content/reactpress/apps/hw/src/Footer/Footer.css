@@ -1,0 +1,230 @@
+.footer {
+  /* min-height: 100vh; */
+  background-color: #04adbf;
+
+  display: grid;
+  grid-template-columns: 0.9fr 2.5fr 2fr;
+  /* background-image: url("../assets/img/footer.png"); */
+  /* background-position: bottom center; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+
+.footer-left {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* padding-top: 100px; */
+  font-size: 14px;
+}
+
+.footer-logo {
+  justify-self: left;
+  margin: 2% 0;
+}
+.footer-left img {
+  height: 40px;
+}
+
+.footer-desc {
+  line-height: 195.1%;
+
+  letter-spacing: 0.025em;
+
+  color: #ffffff;
+  /* margin-bottom: 65px; */
+}
+
+.footer-site-map-heading {
+  font-family: "Muli-Bold";
+  font-size: 20px;
+  line-height: 161.1%;
+  /* or 45px */
+  cursor: pointer;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+}
+
+.footer-site-map-item {
+  font-size: 16px;
+  line-height: 161.1%;
+  cursor: pointer;
+  color: #ffffff;
+  /* identical to box height, or 35px */
+
+  letter-spacing: 0.025em;
+  margin: 2% 0;
+}
+
+.footer-social-contact {
+  margin: 2% 0;
+}
+
+.footer-social-container {
+  display: flex;
+  gap: 10px;
+  color: #ffffff;
+
+  /* margin-top: 30px; */
+}
+
+.footer-site-map {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: 2% 0;
+  /* font-size: 0.8em; */
+}
+
+.footer-social-circle {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.88);
+  color: #04adbf;
+  height: 25px;
+  width: 25px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+.footer-right {
+  /* grid-column-start: 3;
+  grid-row-start: 1; */
+  /* padding-top: 90px; */
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+  grid-template-rows: 225px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-right-overline {
+  font-family: "Muli-Light";
+  font-size: 14px;
+  line-height: 195.1%;
+
+  letter-spacing: 0.025em;
+
+  color: #ffffff;
+}
+
+.footer-right-heading {
+  font-size: 30px;
+  line-height: 124.1%;
+  font-family: "Muli-Semi-Bold";
+  letter-spacing: 0.025em;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.footer-right-container {
+  /* margin-left: 30%; */
+  /* padding-top: 30px; */
+}
+
+.footer-input-container {
+  display: grid;
+  gap: 20px;
+}
+
+.footer-input-container input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 36px;
+  gap: 19px;
+  background: #04adbf;
+  border-radius: 8px;
+  font-family: "Muli-Semi-Bold";
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+}
+
+.footer-input-container input:focus {
+  outline: none;
+}
+
+.footer-input-container input::placeholder {
+  /* font-size: 18px; */
+  line-height: 134.6%;
+  /* or 24px */
+
+  letter-spacing: 0.025em;
+
+  color: #ffffff;
+}
+
+.footer-right-button {
+  align-self: end;
+
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  background-color: white;
+  color: #04adbf ;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+
+  /* transition: 0.2s ease-out; */
+}
+
+/* .footer-right-button:hover {
+  font-size: 32px;
+} */
+
+/* @media screen and (max-width: 900px) {
+  .footer {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+  }
+  .footer-site-map-item {
+    justify-self: center; 
+  }
+} */
+
+.FooterLastSentence{
+  font-family: "Muli-Light";
+  width: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-right-heading {
+    font-size: 28px;
+  }
+  .footer {
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 0;
+  }
+
+  .footer-right {
+    margin-bottom: 200px;
+  }
+  .footer-right-container {
+    place-self: center;
+    padding-top: 120px;
+  }
+
+  .footer-site-map {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .footer-site-map-item {
+    justify-self: left;
+  }
+
+  .FooterLastSentence{
+    width:100%;
+  }
+}
+
+

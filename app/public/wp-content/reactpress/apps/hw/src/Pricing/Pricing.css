@@ -1,0 +1,261 @@
+.Pricing {
+  text-align: center;
+  background-color: white;
+}
+/* .Pricing-Title {
+  font-size: 48px;
+  line-height: 10px;
+  padding: 30px;
+  font-family: "Muli-Bold";
+  color: #04adbf;
+} */
+
+.Pricing-Footer {
+  font-size: var(--fs-500);
+  font-family: "Muli-Bold";
+  color: #4C4C4C;
+  background-color: rgba(27, 49, 66, 0.09);
+  padding: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.PlanContainerFlexbox {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.PlanContainer {
+  height: 605px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  /* width: 330px; */
+  /* background-color: #e6f1ed; */
+  background-color: rgba(27, 49, 66, 0.09);
+  background-color: rgb(238, 238, 238);
+  margin: 20px;
+  box-shadow: 1px 1px 1px 1px #e0e0e0;
+  transition: all 0.5s ease;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+
+.PlanContainerAlternate {
+  height: 640px;
+  /* width: 330px; */
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  background-color: #4da9bb;
+  margin: 20px;
+  border-top: 8px solid #f9c067;
+  box-shadow: 1px 1px 1px 1px #e0e0e0;
+  transition: all 0.5s ease;
+  border-radius: 20px;
+}
+
+.PlanPositioning {
+  display: grid;
+  place-items: center;
+}
+
+.PlanPositioningTop {
+  display: grid;
+  gap: 20px;
+}
+
+.PlanContainerPart1 {
+  /* height: 100%; */
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+
+.PlanContainerPart2 {
+  /* display: grid; */
+  place-items: center;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  /* height: 1000px; */
+}
+
+.PlanContainerPart1Alternate {
+  /* height: 46%; */
+  background-color: #4da9bb;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  transition: all 0.5s ease;
+  border-radius: 20px;
+}
+
+/*Texts--------------*/
+
+.AdminsDoctors {
+  font-size: var(--fs-200);
+  font-family: "Muli-Semi-Bold";
+  color: #4C4C4C;
+  /* margin-top: 0;
+  padding-top: 50px; */
+  transition: all 0.5s ease;
+}
+
+.AdminsDoctorsAlternate {
+  font-size: var(--fs-200);
+  font-family: "Muli-Semi-Bold";
+  color: #ffffff;
+  /* margin-top: 0;
+  padding-top: 75px; */
+  transition: all 0.5s ease;
+}
+
+.PlanPrice {
+  font-size: var(--fs-600);
+  font-family: "Muli-Bold";
+  color: #4C4C4C;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  /* position: relative; */
+}
+
+.PlanPriceAlternate {
+  font-size: var(--fs-600);
+  font-family: "Muli-Bold";
+  color: #ffffff;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  /* position: relative; */
+}
+
+.PerYear{
+  font-size: var(--fs-200);
+  ;
+}
+
+.FeatureTypeText {
+  font-size: var(--fs-600);
+  font-family: "Muli-Extra-Bold";
+  color: #04adbf;
+  /* padding-top: 40px; */
+  transition: all 0.5s ease;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.FeatureTypeTextAlternate {
+  font-size: var(--fs-600);
+  font-family: "Muli-Bold";
+  color: #ffffff;
+  /* padding-top: 40px; */
+  transition: all 0.5s ease;
+  padding-bottom: 20px;
+}
+
+.FeatureText {
+  font-size: var(--fs-300);
+  font-family: "Muli-Light";
+  color: #3C3C3C;
+  transition: all 0.5s ease;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.FeatureText2 {
+  font-size: var(--fs-400);
+  font-family: "Muli-Bold";
+  color: #3C3C3C;
+  transition: all 0.5s ease;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.FeatureTextAlternate {
+  font-size: var(--fs-300);
+  font-family: "Muli-Light";
+  color: #ffffff;
+  transition: all 0.5s ease;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.FeatureTextAlternate2 {
+  font-size: var(--fs-400);
+  font-family: "Muli-Bold";
+  color: #ffffff;
+  transition: all 0.5s ease;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+  .FeatureText{
+    font-size: var(--fs-500);
+  }
+  .FeatureTextAlternate{
+    font-size: var(--fs-500);
+  }
+
+  .FeatureText2{
+    font-size: var(--fs-600);
+    font-family: "Muli-Black";
+  }
+  .FeatureTextAlternate2{
+    font-size: var(--fs-600);
+    font-family: "Muli-Black";
+  }
+
+  .PlanPrice{
+    font-size: var(--fs-700);
+  }
+
+  .PlanPriceAlternate{
+    font-size: var(--fs-700);
+  }
+
+  .PerYear{
+    font-size: var(--fs-200);
+  }
+}
+
+/*------------------------------*/
+
+.ButtonStyle {
+  background-color: #4da9bb;
+  border-radius: 4px;
+  font-family: "Muli-Bold";
+  font-size: var(--fs-400);
+  color: #ffffff;
+  border-style: none;
+  padding: 16px 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.ButtonStyle a {
+  color: #fff;
+}
+
+.ButtonStyleAlternate {
+  background-color: #fafafa;
+  border-radius: 4px;
+  font-family: "Muli-Bold";
+  font-size: var(--fs-400);
+  color: #4da9bb;
+  border-style: none;
+  padding: 16px 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.ButtonStyleAlternate a {
+  color: #4da9bb;
+}

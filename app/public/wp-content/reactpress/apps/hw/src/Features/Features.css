@@ -1,0 +1,136 @@
+.features {
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  background-image: url("../assets/img/latestbg.svg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+ /* .features-heading {
+  width: 50%;
+  font-family: "Muli-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+  place-self: center;
+  color: #4da9bb;
+}  */
+
+.features-profiles-container {
+  display: grid;
+
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.features-profiles-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+
+.features-subject {
+  display: grid;
+  grid-template-columns: 0.4fr 2fr;
+}
+
+.features-subject-text1 {
+  width: 70%;
+  font-family: "Muli-Reg";
+  font-size: var(--fs-500);
+  line-height: 147%;
+  /* or 44px */
+
+  letter-spacing: 0.075em;
+  color: #3d3d3d;
+  justify-self: left;
+  align-self: start;
+  /* padding-top: 43%; */
+}
+
+.features-line-white-vertical-wrapper {
+  /* padding: 90%; */
+  place-self: center;
+  /* width: 100%; */
+  height: 100%;
+  padding-top: 20%;
+}
+
+.features-line-white-vertical {
+  border: 2px solid #4da9bb;
+  width: 5%;
+  border-radius: 5px;
+  /* rotate: 90deg; */
+  background-color: #4da9bb;
+  height: 30%;
+}
+
+/* .features-line-white-vertical2 {
+  border: 2px solid #348a9b;
+  width: 5%;
+  border-radius: 5px;
+  rotate: 90deg;
+  background-color: #348a9b;
+  height: 50%;
+} */
+
+.features-img {
+  /* position: relative; */
+  object-fit: contain;
+  /* width: 666.99px; */
+  /* height: 500 0.33px; */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  place-self: center;
+  margin-top: 50px;
+}
+
+.img1,
+.img2,
+.img3 {
+  /* min-width: 100%;  */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.features-img2 {
+  margin-top: 30px;
+}
+@media screen and (max-width: 900px) {
+  .features-subject-text1 {
+    width: 80%;
+  }
+
+  .features-subject {
+    margin-top: 4%;
+  }
+
+  .features-img {
+    /* grid-row-start: 1; */
+    margin-left: 2%;
+  }
+
+  .features-subject-text1 {
+    /* font-size: 20px; */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features-subject-text1 {
+    width: 90%;
+  }
+
+  .features-img {
+    grid-row-start: 1;
+    margin-left: 2%;
+  }
+
+  .features-subject-text1 {
+    /* font-size: 18px; */
+  }
+}

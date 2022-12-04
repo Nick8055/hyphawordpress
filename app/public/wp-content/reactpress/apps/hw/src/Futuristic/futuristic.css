@@ -1,0 +1,37 @@
+.Futuristic{
+    margin: 0;
+    padding: 0;
+}
+
+.futuristicFlexbox{
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    width: 90%;
+    margin: 0 auto;
+    place-items: center;
+    /* outline: solid 1px red; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px){
+    .futuristicFlexbox{
+        flex-wrap: wrap-reverse;
+    }
+}
+
+.headingFuturistic{
+    /* font-weight: 700; */
+    font-size: var(--fs-650);
+    line-height: 134.1%;
+    letter-spacing: 0.025em;
+    color: #04adbf;
+    font-family: "Muli-Extra-Bold";
+    text-align: center;
+    padding: 50px;
+    /* width: 80%; */
+  }
+
+.futuristicVideo{
+    padding: 20px;
+}  

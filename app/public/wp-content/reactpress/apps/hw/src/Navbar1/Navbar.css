@@ -1,0 +1,46 @@
+.nav {
+  background: rgba(230, 241, 237, 0.95);
+  height: 80px;
+  /*margin-top: -80px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+@media screen and (max-width: 960px) {
+  .nav {
+    transition: 0.8s all ease;
+  }
+}
+
+.nav-scrolled {
+  background-color: rgba(27, 49, 66, 0.13); 
+  opacity: 0.96;
+  padding: 15px 60px 15px 60px;
+}
+
+/* .nav .image {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav .nav-links .nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: #04adbf;
+  font-family: "Muli-Semi-Bold";
+} */
+
+/* .nav-scrolled .nav-links .list {
+  color: #fff;
+} */
+
+/* .nav .nav-links .nav-list .nav-item {
+  padding: 0px 20px;
+  cursor: pointer;
+} */

@@ -1,0 +1,158 @@
+.hero {
+  height: 110vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  overflow: hidden;
+  background-image: url("../assets/img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font-size: 10px; */
+  box-sizing: border-box;
+  padding-top: 40px;
+  background-color: white;
+}
+
+.hero .hero-heading {
+  display: grid;
+  margin-top: -20%;
+  place-content: center;
+  max-width: 100%;
+  align-items: center;
+  padding: 0 2em 0 4em;
+}
+
+.hero .hero-heading .hero-main {
+  font-size: var(--fs-700);
+  line-height: 136%;
+  letter-spacing: 0.025em;
+  font-family: "Muli-Extra-Bold";
+
+  /* text-transform: capitalize; */
+  align-self: end;
+  color: #04adbf;
+  /* margin-bottom: 20px; */
+}
+
+.hero .hero-sub {
+  align-self: baseline;
+  padding-top: 30px;
+}
+
+.hero .hero-sub .hero-subtitle {
+  margin-bottom: 30px;
+  font-size: var(--fs-400);
+  color: #333333;
+}
+
+.hero .button-container {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, 21rem);
+  gap: 10px; */
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.hero .hero-img-div {
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.hero .hero-image {
+  object-fit: cover;
+}
+
+/* a.Hero-button-Join-Club{
+  display: flex;
+  justify-content: center;
+} */
+
+a.whatsapp-Button{
+  display: flex;
+  justify-items: center;
+  width: 100%;
+ 
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    background-image: none;
+    min-height: 180vh;
+    grid-template-rows: 1fr 2fr;
+    margin-bottom: -10em;
+  }
+
+  .hero .hero-heading {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: end;
+    padding: 4em 2em;
+    margin-top: 0%;
+  }
+
+  .hero .hero-heading .hero-main {
+    align-self: center;
+    justify-self: center;
+    /* font-size: 50px; */
+  }
+
+  .hero .hero-sub {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .hero .button-container {
+    /* place-content: center; */
+    justify-content: center;
+  }
+
+  .hero-img-div {
+    overflow: auto;
+    background-image: url("../assets/img/hero-small.png");
+    background-size: cover;
+  }
+
+  .Hero-button-Join-Club{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    background-image: none;
+    min-height: 160vh;
+    grid-template-rows: 1.2fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .hero .hero-heading {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 0%;
+  }
+
+  .hero .hero-heading .hero-main {
+    align-self: center;
+    justify-self: center;
+    /* font-size: 30px; */
+  }
+
+  .hero .hero-sub {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .hero .button-container {
+    place-content: center;
+  }
+
+  .hero-img-div {
+    overflow: auto;
+    background-image: url("../assets/img/hero-small.png");
+    background-size: cover;
+  }
+}

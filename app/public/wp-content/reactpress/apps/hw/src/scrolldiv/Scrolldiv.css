@@ -1,0 +1,88 @@
+.scrolldiv {
+  /* padding: 80px; */
+  background-image: url("../assets/img/curl.png");
+  object-fit: cover;
+  /* background-image: url("../assets/img/curl2.svg"); */
+  background-size: 100% 100%, 50% 100%;
+  /* background-size: 50% auto; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position-x: 0%, 100%; */
+  /* background-position-y: -125%, 195%; */
+  max-height: 60vh;
+  background-color: white;
+}
+
+.scroll-text {
+  margin: 2% 2% 6% 2%;
+}
+
+.scroll-text-heading {
+  font-family: "Muli-Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  color: #488c8f;
+}
+
+.scroll-text-sub {
+  font-family: "Muli-Extra-Light";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: center;
+  color: #488c8f;
+}
+
+.scroll-dot-element {
+  background: #3e6a78;
+  border-radius: 50%;
+  min-width: 10px;
+  min-height: 10px;
+  place-self: center;
+  /* min-width: 0.93%; */
+  padding: 1rem auto;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  width: 85vw;
+  cursor: pointer;
+}
+
+.containerForScroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-item {
+  min-height: 100px;
+  place-self: center;
+  min-width: 25conditions0px;
+  background: #d3e8ef;
+  border-radius: 12px;
+  padding: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 1%;
+}
+
+.scroll-item-img {
+  height: 80px;
+  place-self: center;
+}
+
+.scroll-item-text {
+  font-size: var(--fs-200);
+  place-self: center;
+  line-height: 131%;
+  color: #3e6a78;
+  font-family: "Muli-Semi-Bold";
+}

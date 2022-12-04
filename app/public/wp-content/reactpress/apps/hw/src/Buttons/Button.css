@@ -1,0 +1,95 @@
+.button {
+  text-align: center;
+  font-size: var(--fs-300);
+}
+.button-main {
+  background: #04adbf;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #04adbf;
+  font-size: var(--fs-300);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+.button-main:hover{
+  background: #fff;
+  color: #04adbf;
+  /* border: 1px solid #04adbf; */
+  border-color: #04adbf;
+  transition: all 0.3s ease;
+}
+
+.button-white {
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 8px;
+  color: #04adbf;
+  cursor: pointer;
+  display: block;
+}
+
+.button-white:hover {
+  background: #04adbf;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* .button-inverse {
+  background: none;
+  border: 1px solid #04adbf;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #04adbf;
+  cursor: pointer;
+  display: block;
+  font-size: var(--fs-300);
+} */
+
+.button-inverse {
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #04adbf;
+  font-size: var(--fs-300);
+  color: #04adbf;
+  cursor: pointer;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.button-inverse:hover {
+  background: #04adbf;
+  color: #fff;
+  border-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.button-dark-icon {
+  background: #054b57;
+  padding: 0px 7px 7px 7px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  /* text-align: center; */
+}
+
+.button-light-icon {
+  background: #fff;
+  padding: 0px 7px 7px 7px;
+  border-radius: 8px;
+  color: #04adbf;
+  cursor: pointer;
+  display: block;
+  /* text-align: center; */
+}

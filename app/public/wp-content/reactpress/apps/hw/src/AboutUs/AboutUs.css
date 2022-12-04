@@ -1,0 +1,506 @@
+:root {
+  --fontFactor: 1;
+}
+
+.AboutUs{
+  font-size: 100px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+/* @font-face {
+  font-family: Font1;
+  src: url(MULI-BLACK\ \(1\).TTF);
+}
+
+@font-face {
+  font-family: "Muli-Bold";
+  src: url(MULI-BOLD.TTF);
+}
+
+@font-face {
+  font-family: "Muli-Semi-Bold";
+  src: url(MULI-SEMIBOLD.TTF);
+}
+
+@font-face {
+  font-family: "Muli-Extra-Light";
+  src: url(MULI-EXTRALIGHT.TTF);
+} */
+
+@font-face {
+  font-family: "Muli-Regular";
+  src: url(/src/fonts/MULI-REGULAR.TTF);
+} 
+
+@font-face {
+  font-family: "Muli-Medium";
+  src: url(/src/fonts/MULI-MEDIUM.TTF);
+} 
+
+@font-face {
+  font-family: "Muli-Black";
+  src: url(/src/fonts/MULI-BLACK.TTF);
+} 
+
+.mainTitle{
+  color: #04ADBF;
+  font-size: calc(0.6em * var(--fontFactor));
+  font-family: "Muli-Bold";
+  text-align: center;
+  padding-top: 40px;
+}
+
+.paragraph{
+  color: #333333;
+  font-size: calc(0.18em * var(--fontFactor));
+  font-family: "Muli-Regular";
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+  padding: 10px;
+}
+
+.para1{
+  width: 100%;
+  font-size: calc(0.25em * var(--fontFactor));
+  color:#333333;
+}
+
+.para1Andpic1Flexbox{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* width: 80%; */
+}
+
+.para2{
+  width: 70%;
+  text-align: left;
+}
+
+.para3{
+  width: 70%;
+  text-align: left;
+}
+
+.slogan{
+  letter-spacing: 5px;
+  font-size: calc(0.40em * var(--fontFactor));
+  color:#04ADBF;
+  padding-top: 80px;
+  padding-bottom: 1px;
+ 
+}
+
+.dot{
+  font-size: calc(0.24em * var(--fontFactor));
+  color:#04ADBF;
+  padding: 20px;
+}
+
+.slogan2{
+  color:#04ADBF;
+  letter-spacing: 5px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.pic1Container{
+  /* background-color: red; */
+  /* text-align: center; */
+}
+
+.pic1{
+  width: 300px;
+}
+
+.secondContainer{
+  background: rgb(238, 238, 238);
+}
+
+.secondContainerSub{
+  /* background: #E9F2EE; */
+  display: flex;
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.title2{
+  color: #04ADBF;
+  font-family: "Muli-Bold";
+  font-size: calc(0.24em * var(--fontFactor));
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 70px;
+  /* background-color: red;; */
+}
+
+
+.para4{
+  width: 60%;
+  font-size: calc(0.16em * var(--fontFactor));
+  text-align: left;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* padding-top: 50px; */
+}
+
+@media only screen and (max-width:1000px){
+
+  /* .mainTitle{
+    font-size: 0.25em;
+  } */
+
+  .para1{
+    width: 95%;
+    /* font-size: 0.30em; */
+    /* color:#04ADBF; */
+  }
+
+  .para4{
+    min-width: 40%;
+    text-align: left;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .para1{
+    width: 60%;
+  }
+
+  .pic1{
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .secondContainerSub{
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .title2{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .para4{
+    min-width: 60%;
+    text-align: left;
+    padding-right: 0px;
+  }
+}
+
+.title3{
+  color: #04ADBF;
+  font-size: calc(0.35em * var(--fontFactor));
+  font-family: "Muli-Bold";
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* .blueContainerSection{ */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));  */
+  /* place-items: center; */
+  /* width: 100%; */
+    /* margin: 0 auto; */
+/* } */
+
+.blueContainerDiv{
+  position: relative;
+}
+
+.scroll-container{
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.blueContainer{
+  background: #04ADBF;
+  color: white;
+  font-size: calc(0.22em * var(--fontFactor));
+  margin: 20px;
+  font-family: "Muli-Semi-Bold";
+  width: 400px;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.blueContainerContent{
+  width: 70%;
+  margin: auto auto;
+}
+
+.blueContainerButtonR{
+  position: absolute;
+  border-radius: 50%;
+  background: rgb(238, 238, 238);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(173, 173, 173, 0.49);
+  width: 60px;
+  height: 60px;
+  right: 3%;
+  bottom: 35%;
+  font-size: 30px;
+  color: #04ADBF;
+  padding-top: 10px;
+  padding-left: 3px;
+  cursor: pointer;
+}
+
+.blueContainerButtonL{
+  position: absolute;
+  border-radius: 50%;
+  background: rgb(238, 238, 238);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(173, 173, 173, 0.49);
+  width: 60px;
+  height: 60px;
+  left: 3%;
+  bottom: 35%;
+  font-size: 30px;
+  color: #04ADBF;
+  padding-top: 10px;
+  padding-left: 3px;
+  cursor: pointer;
+}
+
+.section4{
+  display: grid;
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template-columns: 1fr 2.5fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.title4{
+  color: #04ADBF;
+  font-size: calc(0.35em * var(--fontFactor));
+  font-family: "Muli-Bold";
+  text-align: center;
+  padding: 50px;
+  align-self: center;
+  justify-self: center;
+}
+
+ .t4{
+  padding-bottom: 0;
+} 
+
+.para5{
+  width: 70%;
+  text-align: left;
+  font-size: calc(0.18em * var(--fontFactor));
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 900px){
+  .para5{
+    width: 60%;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .section4{
+    display: block;
+  }
+
+  .para5{
+    text-align: center;
+  }
+}
+
+.TeamSection{
+  background: #04ADBF;
+  /* margin-bottom: 100px; */
+  padding-bottom: 50px;
+}
+
+.TeamTitle{
+  color: white;
+  font-family: "Muli-Bold";
+  font-size: calc(0.35em * var(--fontFactor));
+  text-align: center;
+  padding: 50px;
+  padding-top: 75px;
+}
+
+.TeamMembers{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.TeamImageContainer{
+  position: relative;
+  display: inline-block;
+}
+
+.TeamImage{
+  width: 250px;
+}
+
+.linkedinLogo{
+  position: absolute;
+  top: 73%;
+  right: 1%;
+  width:50px;
+}
+
+.memberName{
+  font-family: "Muli-Semi-Bold";
+  font-size: calc(0.24em * var(--fontFactor));
+  color: white;
+}
+
+.memberDesignation{
+  font-family: "Muli-Extra-Light";
+  font-size: calc(0.18em * var(--fontFactor));
+  color: white;
+  padding-bottom: 30px;
+}
+
+.valueSection{
+   /* padding-top: 50px; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));   */
+  width: 75%;
+  margin-left: 12.5%;
+  margin-bottom: 100px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.valueContainer{
+  width: 400px;
+  max-height: 200px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 8px;
+  position: relative;
+  /* display: inline-block; */
+  margin: 40px auto;
+}
+
+@media only screen and (max-width:450px){
+  .valueContainer{
+    transform: scale(0.9);
+  }
+}
+
+.valueHeading{
+  font-size: calc(0.42em * var(--fontFactor));
+  font-family: "Muli-Bold";
+  color: #04ADBF;
+  position: absolute;
+  top: -15%;
+  left: -10%;
+}
+
+.valueDesc{
+  font-family: "Muli-Medium";
+  color:  #333333;
+  font-size: calc(0.18em * var(--fontFactor));
+  text-align: left;
+  padding: 10%;
+}
+
+.lastSection{
+  background-color: rgb(238, 238, 238);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.lastTitle{
+  font-size: calc(0.4em * var(--fontFactor));
+  font-family: "Muli-Semi-Bold";
+  color: #04ADBF;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 800px){
+  .lastTitle{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+.joinUsButton{
+ width: 150px;
+ height: 60px;
+ color: #FFFFFF;
+ background: #04ADBF;
+ border-style: none;
+ border-radius: 8px;
+ font-family: "Muli-Bold";
+ font-size: calc(0.24em * var(--fontFactor));
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.joinUsButton:hover{
+  color: #04ADBF;
+  background: white;
+  /* border-style: solid;
+  border-color: #04ADBF;
+  border-width: 2px; */
+  transition: all 0.3s ease;
+}
+
+.greyLine{
+  border-style: solid;
+  width: 180px;
+  color: #D9D9D9;
+  border-width: 4px;
+  /* position: absolute; */
+  /* right: 10%; */
+  /* top: 20%; */
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width:800px){
+  :root {
+    --fontFactor: 0.7;
+  }
+
+}
+
+@media only screen and (max-width:450px){
+  :root {
+    --fontFactor: 0.7;
+  }
+
+  .para1{
+    width: 90%;
+  }
+}
+
+/* .youtube iframe{
+  padding: 40px 0 ;
+  width: 90%;
+  margin-left: 5%;
+} */

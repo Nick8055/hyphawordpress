@@ -1,0 +1,64 @@
+/* *{
+    background-color: blue;
+} */
+
+/* body{
+    background-color: white;
+} */
+.TermsAndPrivacy{
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.termsPrivacy-Heading{
+    font-family: "Muli-Extra-Bold";
+    font-size: 30px;
+    color: #04adbf;
+    text-align: center;
+    padding: 50px;
+}
+
+.termsPrivacy-FirstPara{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.otherPara{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.subPara{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 18px;
+    width: 65%;
+    margin-left: 17.5%;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+
+}
+
+.subSubPara{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 18px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+
+}

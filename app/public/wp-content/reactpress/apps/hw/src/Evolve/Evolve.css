@@ -1,0 +1,114 @@
+.evolve {
+  /* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #d8f2fa); */
+  position: relative;
+  place-items: center;
+  /* min-height: 140vh; */
+  max-height: 50vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  /* background-color: rgba(27, 49, 66, 0.13); */
+}
+
+@media only screen and (max-width: 900px){
+  .evolve{
+    max-height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .evolve{
+    max-height: 50vh;
+  }
+}
+
+.evolve-text-wrapper {
+  display: grid;
+  place-items: center;
+  width: 60%;
+  margin-bottom: 8%;
+}
+
+/* .evolve-text-heading {
+  font-family: "Muli-Bold";
+  font-size: 42px;
+  line-height: 134.1%;
+  letter-spacing: 0.025em;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #04adbf;
+} */
+
+
+.evolve-text-desc {
+  font-size: var(--fs-300);
+  line-height: 161.1%;
+  margin-bottom: 15px;
+
+  text-align: center;
+  letter-spacing: 0.025em;
+  /* text-transform: capitalize; */
+
+  color: #4C4C4C;
+  margin-bottom: 35px;
+}
+
+.evolve-text-sub {
+  font-size: var(--fs-300);
+  line-height: 161.1%;
+  /* or 29px */
+
+  text-align: center;
+  letter-spacing: 0.025em;
+  /* text-transform: capitalize; */
+
+  color: #4C4C4C;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.evolve-button {
+  cursor: pointer;
+  font-size: var(--fs-400);
+  margin-top: 3%;
+  line-height: 134.6%;
+  /* or 24px */
+  font-family: "Muli-Bold";
+  letter-spacing: 0.025em;
+  /* text-transform: uppercase; */
+  z-index: 50;
+}
+
+/* .evolve-background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+  background-image: url("../assets/img/Evolve.png");
+  background-position: bottom center;
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+/* @media screen and (max-height: 800px) {
+  .evolve {
+    min-height: 100vh;
+  }
+} */
+
+@media screen and (max-width: 900px) {
+  .evolve {
+    /* min-height: 70vh; */
+    grid-template-rows: 1fr 0.3fr;
+  }
+  .evolve-text-wrapper {
+    width: 80%;
+    place-self: center;
+    margin-bottom: 30%;
+  }
+}
+/* 
+@media screen and (max-width: 500px) {
+} */

@@ -1,0 +1,57 @@
+.Team{
+  margin-bottom: 80px;
+  overflow-x: hidden;
+}
+
+.TeamSection{
+    background: #04ADBF;
+    /* margin-bottom: 100px; */
+    padding-bottom: 50px;
+  }
+  
+  .TeamTitle{
+    color: white;
+    font-family: "Muli-Bold";
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 75px;
+  }
+  
+  .TeamMembers{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .TeamImageContainer{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .TeamImage{
+    width: 250px;
+  }
+  
+  .linkedinLogo{
+    position: absolute;
+    top: 73%;
+    right: 1%;
+    width:50px;
+  }
+  
+  .memberName{
+    font-family: "Muli-Semi-Bold";
+    font-size: 24px;
+    color: white;
+  }
+  
+  .memberDesignation{
+    font-family: "Muli-Extra-Light";
+    font-size: 18px;
+    color: white;
+    padding-bottom: 30px;
+  }

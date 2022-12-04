@@ -1,0 +1,153 @@
+.OurStory{
+    overflow-x: hidden;
+}
+
+.ourStoryHeading{
+    font-family: "Muli-Extra-Bold";
+    color: #04ADBF;
+    font-size: 36px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-bottom: 60px;
+}
+
+.storyParagraph{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 19px;
+    width: 82%;
+    margin-left: 9%;
+    line-height: 30px;
+}
+
+.storySubHeading{
+    font-family: "Muli-Semi-Bold";
+    color: #04ADBF;
+    font-size: 23px;
+}
+
+.why-do-we-call-Hypha{
+    background: rgb(238, 238, 238);
+    margin-top: 90px;
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.why-Heading{
+    font-family: "Muli-Bold";
+    color: #04ADBF;
+    font-size: 26px;
+    /* width: 70%; */
+}
+
+.why-Paragraph{
+    color: #333333;
+    font-size: 18px;
+    font-family: "Muli-Medium";
+    width: 30%;
+    line-height: 30px;
+}
+
+.Mission-Vision{
+    margin-top: 40px;
+}
+
+.Mission{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Vision{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Mission-Heading{
+    font-family: "Muli-Extra-Bold";
+    color: #04ADBF;
+    font-size: 36px;
+    width: 30%;
+}
+
+.Vision-Heading{
+    font-family: "Muli-Extra-Bold";
+    color: #04ADBF;
+    font-size: 36px;
+    width: 30%;
+}
+
+.Mission-Paragraph{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 19px;
+    width: 30%;
+    line-height: 30px;
+}
+
+.Vision-Paragraph{
+    font-family: "Muli-Medium";
+    color: #333333;
+    font-size: 19px;
+    width: 30%;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 1000px){
+    .why-do-we-call-Hypha{
+        display: block;
+        padding: 0;
+    }
+
+    .why-Heading{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .why-Paragraph{
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .Mission{
+        display: block;
+    }
+
+    .Mission-Heading{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .Mission-Paragraph{
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+    }
+
+    .Vision{
+        display: block;
+    }
+
+    .Vision-Heading{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .Vision-Paragraph{
+        width: 70%;
+        margin-left: 15%;
+        text-align: center;
+    }
+}

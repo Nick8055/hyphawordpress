@@ -1,0 +1,30 @@
+.anchorJoin:link, .anchorJoin:visited{
+    color: #555555;
+    margin: 0 5px;
+    white-space: nowrap;
+    padding: 0px 22px;
+    font-size: var(--fs-300);
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.anchorJoin:hover{
+    color: #04adbf;
+}
+
+a.anchorJoin.active{
+    color: #04adbf;
+}
+
+
+/* a.anchorJoin:hover{
+    color: #04adbf;
+}
+
+a.anchorJoin.active{
+    color: #04adbf;
+} */

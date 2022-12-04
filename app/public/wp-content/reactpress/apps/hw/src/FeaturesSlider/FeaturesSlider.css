@@ -1,0 +1,138 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.features-slider {
+  color: rgba(72, 140, 143, 1);
+  height: auto;
+}
+
+.features-slider-element {
+  /* height: auto; */
+  margin: 5% 0;
+}
+
+.FeatureContainer {
+  width: 90%;
+  /* text-align: left; */
+  margin: auto auto;
+  background: #e6f1ed;
+  display: flex;
+  place-content: center;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  /* height: auto; */
+  min-height: 80vh;
+}
+
+.FeatureHeadingAndDesc {
+  width: 55%;
+  padding-left: 40px;
+}
+
+.FeatureHeading {
+  font-size: 34px;
+  padding-top: 80px;
+  font-family: "Muli-Bold";
+  color: #0999a8;
+  /* margin-left : 22%; */
+}
+
+.FeatureDesc {
+  font-size: 18px;
+  width: 80%;
+  /* margin: 0 auto;   */
+  padding-bottom: 40px;
+  padding-top: 30px;
+  font-family: "Muli-Extra-Light";
+  line-height: 29.62px;
+  color: #0999a8;
+}
+
+.FeatureImage {
+  width: 40%;
+  /* height: 95%; */
+  margin: auto 0;
+  /* border-style: solid; */
+}
+
+.arrow {
+  /* background-color: white; */
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  padding-top: 10px;
+}
+
+.nextArrow {
+  font-size: 30px;
+  /* position: absolute; */
+  top: 95%;
+  right: 40%;
+}
+
+.prevArrow {
+  font-size: 30px;
+  /* position: absolute; */
+  top: 95%;
+  left: 40%;
+}
+
+.arrow:hover {
+  color: rgba(0, 30, 108, 1);
+}
+
+.slick-dots li button:before {
+  color: #ffac00;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #488c8f !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .FeatureContainer {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .FeatureHeading {
+    padding-top: 20px;
+  }
+
+  .FeatureDesc {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .FeatureHeadingAndDesc {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .FeatureImage {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .nextArrow {
+    font-size: 30px;
+    top: 97%;
+    right: 30%;
+    background-color: white;
+  }
+
+  .prevArrow {
+    font-size: 30px;
+    top: 97%;
+    left: 30%;
+    background-color: white;
+  }
+}
+
+/* @media only screen and (max-width: 500px) {
+  .features-slider .slick-dots {
+    top: 90%;
+  }
+} */

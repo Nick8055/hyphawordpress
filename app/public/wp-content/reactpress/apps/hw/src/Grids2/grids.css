@@ -1,0 +1,97 @@
+@font-face{
+    font-family: "Muli-Regular";
+    src: url(/src/fonts/MULI-REGULAR.TTF);
+} 
+  
+@font-face{
+    font-family: "Muli-Medium";
+    src: url(/src/fonts/MULI-MEDIUM.TTF);
+} 
+  
+@font-face{
+    font-family: "Muli-Black";
+    src: url(/src/fonts/MULI-BLACK.TTF);
+} 
+
+@font-face{
+    font-family: "Muli-Extra-Bold";
+    src: url(/src/fonts/MULI-EXTRABOLD.TTF);
+} 
+
+@font-face{
+    font-family: "Muli-Semi-Bold";
+    src: url(/src/fonts/MULI-SEMIBOLD.TTF);
+} 
+
+.GridApp{
+    overflow-x: hidden;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    /* outline: solid 1px red; */
+}
+
+.gridHeading{
+    color: #4C4C4C;
+    font-family: "Muli-Extra-Bold";
+    margin-bottom: 80px;
+}
+
+.Grid1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.Grid2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.gridItem{
+    /* width: 20%; */
+    max-width: 230px;
+    text-align: center;
+}
+
+.itemIcon{
+    width: 70px;
+}
+
+.itemHeading{
+    font-size: 18px;
+    padding-bottom: 7px;
+    color: #04ADBF;
+    font-family: "Muli-Extra-Bold";
+}
+
+.itemDesc{
+    font-size: 16.8px;
+    color: #000000;
+    width: 80%;
+    /* max-width: 150px;
+    margin: 0 auto; */
+    margin-left: 10%;
+    font-family: "Muli-Semi-Bold";
+}
+
+@media only screen and (max-width: 800px){
+
+    .Grid1{
+        display: block;
+    }
+
+    .Grid2{
+        display: block;
+    }
+
+    .gridItem{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+}

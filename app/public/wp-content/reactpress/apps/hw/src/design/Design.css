@@ -1,0 +1,115 @@
+.design {
+  /* height: 50vh; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-content: center;
+  background-color: white;
+}
+.design-container-padding {
+  padding: 80px 80px 80px 0;
+}
+.design-img-div {
+  /* overflow: hidden; */
+  /* transform: scale(0.5); */
+  width: 100%;
+}
+.design-img-div img {
+  width: 40%;
+  margin-left: 30%;
+  place-self: center;
+}
+.design-heading {
+  /* position: relative; */
+  display: grid;
+  align-items: center;
+  /* grid-template-rows: 1fr 1fr; */
+  padding: 0 20px 0 80px;
+}
+.design-main {
+  font-family: "Muli-Extra-Bold";
+  font-size: var(--fs-700);
+  /* line-height: 84px; */
+  text-transform: capitalize;
+  color: #04adbf;
+  align-self: end;
+}
+.design-sub {
+  font-family: "Muli-Reg";
+  font-size: var(--fs-400);
+  line-height: 159%;
+  color: #484848;
+  /* width: 80%; */
+  /* bottom: 75px; */
+
+  align-self: center;
+}
+.design-under {
+  position: relative;
+  bottom: 205px;
+}
+
+.design-button-container {
+  width: 40%;
+  align-self: baseline;
+  /* display: flex;
+  justify-content: center; */
+}
+
+/* .whatsapp-design-button{
+  margin-left: 0;
+} */
+
+@media screen and (max-width: 900px) {
+  .design-container-padding {
+    padding: 50px 50px 50px 0;
+  }
+  .design-heading {
+    padding: 0 10px 0 10px;
+  }
+  .design-button-container {
+    margin: 8% 0 0 0;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    /* place-self: center; */
+  }
+
+  .design-main {
+    /* font-size: 30px; */
+    /* place-self: center;
+    text-align: center; */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .design-img-div {
+    grid-row-start: 2;
+    margin: 0 0px -60px 0px;
+  }
+  /* .design-img-div img {
+    width: 100%;
+  } */
+  .design-container-padding {
+    padding: 40px 20px;
+  }
+  .design-heading {
+    padding: 0 10px 0 10px;
+  }
+  .design-button-container {
+    margin: 5%;
+    width: 70%;
+    place-self: center;
+  }
+
+  .design-main {
+    /* font-size: 25px; */
+    place-self: center;
+    text-align: center;
+  }
+
+  .design-sub {
+    margin: 0 5%;
+    place-self: center;
+    text-align: center;
+  }
+}
